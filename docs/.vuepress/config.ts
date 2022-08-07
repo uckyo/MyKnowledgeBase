@@ -9,6 +9,7 @@ export default defineUserConfig({
   description: '我自己的前端知识仓库及速查手册',
   theme: defaultTheme({
     navbar,
+    sidebar,
     editLinkText: '在 GitHub 上编辑此页',
     lastUpdatedText: '上次更新',
     contributorsText: '贡献者',
