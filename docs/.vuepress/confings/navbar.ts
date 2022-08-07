@@ -5,8 +5,8 @@ export const navbar: NavbarConfig = [
     text: '速查手册',
     children: [
       {
-        text: '数组方法',
-        link: '/cheatSheet/arrayFn/cancat.md'
+        text: 'javascript',
+        children: [{ text: '数组方法', link: '/cheatSheet/arrayFn/cancat.md' }]
       }
     ]
   }
