@@ -39,14 +39,14 @@ const handleClick = (item) => {
 .nav-card-title {
   font-size: 24px;
   font-weight: bold;
-  color: #303133;
+  color: --vp-c-text-1;
 }
 
 .nav-card-desc {
   max-width: 250px;
   word-wrap: break-word;
   margin-top: 10px;
-  color: #909399;
+  color: --vp-c-text-2;
 }
 
 .nav-card:hover .nav-card-title {
