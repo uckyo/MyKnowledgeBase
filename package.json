@@ -1,19 +1,13 @@
 {
-  "name": "warehouse",
-  "version": "1.0.0",
-  "description": "my own Knowledge Warehouse",
-  "main": "index.js",
-  "scripts": {
-    "dev": "vuepress dev docs",
-    "build": "vuepress build docs",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [
-    "warehouse"
-  ],
-  "author": "uckyo",
-  "license": "ISC",
   "devDependencies": {
-    "vuepress": "^2.0.0-beta.49"
+    "vitepress": "^1.0.0-rc.45"
+  },
+  "peerDependencies": {
+    "vue": "^3.4.21"
+  },
+  "scripts": {
+    "docs:dev": "vitepress dev .",
+    "docs:build": "vitepress build .",
+    "docs:preview": "vitepress preview ."
   }
 }
