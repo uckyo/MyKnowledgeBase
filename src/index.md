@@ -2,9 +2,9 @@
 layout: home
 
 hero:
-  name: "Dadu 知识库"
-  text: "明日复明日 明日何其多"
-  tagline: 等风来，不如追风去。
+  name: 'Dadu 知识库'
+  text: '等风来，不如追风去。'
+  tagline: 明日复明日，明日何其多。
   actions:
     - theme: brand
       text: 学习笔记
@@ -12,8 +12,8 @@ hero:
     - theme: alt
       text: 代码片段
       link: /Snippets/one
-
 ---
+
 <style>
 :root {
   --vp-home-hero-name-color: transparent;

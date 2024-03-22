@@ -13,6 +13,7 @@ export default defineConfig({
       {
         text: '学习笔记',
         items: [
+          { text: '设计模式', link: '/Notes/DesignPatterns/原型模式'},
           { text: 'Typescript', link: '/Notes/Typescript/one' },
           { text: 'Electron', link: '/Notes/Electron/one' }
         ]
@@ -40,8 +41,16 @@ export default defineConfig({
     sidebar: {
       "/Notes/": [
         {
+          text: '设计模式',
+          collapsed: true,
+          items: [
+            { text: '原型模式', link: '/Notes/DesignPatterns/原型模式'},
+            { text: '单例模式', link: '/Notes/DesignPatterns/单例模式'}
+          ]
+        },
+        {
           text: 'Typescript',
-          collapsed: false,
+          collapsed: true,
           items: [
             { text: 'one', link: '/Notes/Typescript/one' },
             { text: 'two', link: '/Notes/Typescript/two'}
@@ -49,7 +58,7 @@ export default defineConfig({
         },
         {
           text: 'Electron',
-          collapsed: false,
+          collapsed: true,
           items: [
             { text: 'one', link: '/Notes/Electron/one' },
             { text: 'two', link: '/Notes/Electron/two' }
@@ -68,7 +77,7 @@ export default defineConfig({
         ]
     },
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/uckyo/uckyo.github.io' }
     ]
   }
 })
