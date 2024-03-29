@@ -19,12 +19,16 @@ export default defineConfig({
         ]
       },
       {
+        text: '面试题',
+        link: '/Interview/HTTP',
+      },
+      {
         text: '代码片段',
         link: '/Snippets/one',
       }
     ],
     outline: {
-      level: [1,3],
+      level: [1,2],
       label: '页面导航'
     },
     docFooter: {
@@ -65,7 +69,7 @@ export default defineConfig({
           ]
         }
       ],
-        "/Snippets/": [
+      "/Snippets/": [
             {
             text: 'one',
             link: '/Snippets/one'
@@ -74,7 +78,13 @@ export default defineConfig({
             text: 'two',
             link: '/Snippets/two'
             }
-        ]
+        ],
+      "/Interview/": [
+        {
+          text: 'HTTP',
+          link: '/Interview/HTTP'
+        },
+      ]
     },
     socialLinks: [
       { icon: 'github', link: 'https://github.com/uckyo/uckyo.github.io' }
