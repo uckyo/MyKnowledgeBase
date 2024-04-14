@@ -21,6 +21,6 @@ hero:
 }
 </style>
 <script setup>
-import Home from './components/index.vue'
+import Home from './components/Home/index.vue'
 </script>
 <Home />

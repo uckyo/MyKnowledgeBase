@@ -32,7 +32,7 @@ export const navList=[
     {
         title: "Redux",
         description: "A Predictable State Container for JS Apps",
-        url: "https://reactrouter.com/en/main"
+        url: "https://redux.js.org/"
     },
     {
         title: "Next",

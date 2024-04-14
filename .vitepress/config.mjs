@@ -13,9 +13,10 @@ export default defineConfig({
       {
         text: '学习笔记',
         items: [
-          { text: '设计模式', link: '/Notes/DesignPatterns/原型模式'},
+          { text: 'React', link: '/Notes/React/Start'},
           { text: 'Typescript', link: '/Notes/Typescript/one' },
-          { text: 'Electron', link: '/Notes/Electron/one' }
+          { text: 'Electron', link: '/Notes/Electron/one' },
+          { text: '设计模式', link: '/Notes/DesignPatterns/原型模式'}
         ]
       },
       {
@@ -50,6 +51,18 @@ export default defineConfig({
           items: [
             { text: '原型模式', link: '/Notes/DesignPatterns/原型模式'},
             { text: '单例模式', link: '/Notes/DesignPatterns/单例模式'}
+          ]
+        },
+        {
+          text: 'React',
+          collapsed: true,
+          items: [
+            { text: 'Start', link: '/Notes/React/Start'},
+            { text: 'JSX', link: '/Notes/React/JSX'},
+            { text: 'Component', link: '/Notes/React/Component'},
+            { text: 'Hooks', link: '/Notes/React/Hooks'},
+            { text: 'Redux', link: '/Notes/React/Redux'},
+            { text: 'React-Redux', link: '/Notes/React/React-Redux'},
           ]
         },
         {
